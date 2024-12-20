@@ -1,20 +1,18 @@
 const baseURL = 'demo.magic-portfolio.com'
 
 // Enable localization
-const i18n = false;
+const i18n = true;
 
 // Manage localized content in the messages folder
 const i18nOptions = {
-    locales: ['en'],            // A list of all locales that are supported, e.g. ['en','id']
-    defaultLocale: 'en'         // Locale used by default and as a fallback
+    locales: ['tr'],            // A list of all locales that are supported, e.g. ['en','id']
+    defaultLocale: 'tr'         // Locale used by default and as a fallback
 }
 
 const routes = {
     '/':        true,
     '/about':   true,
-    '/work':    true,
-    '/blog':    true,
-    '/gallery': true,
+    '/work':    true
 }
 
 // Enable password protection on selected routes
@@ -42,12 +40,12 @@ const effects = {
 const style = {
     theme:       'dark',         // dark | light
     neutral:     'gray',         // sand | gray | slate
-    brand:       'emerald',      // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'indigo',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    solid:       'contrast',     // color | contrast
-    solidStyle:  'flat',         // flat | plastic
-    border:      'playful',      // rounded | playful | conservative
-    surface:     'translucent',  // filled | translucent
+    brand:       'pink',      // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    accent:      'aqua',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    solid:       'color',     // color | contrast
+    solidStyle:  'plastic',         // flat | plastic
+    border:      'rounded',      // rounded | playful | conservative
+    surface:     'filled',  // filled | translucent
     transition:  'all'           // all | micro | macro
 }
 
@@ -73,4 +71,4 @@ const mailchimp = {
     }
 }
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, i18n, i18nOptions };
+export { routes, protectedRoutes, effects, style, display, mailchimp, i18n, i18nOptions, baseURL };

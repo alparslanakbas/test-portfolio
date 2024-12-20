@@ -1,0 +1,71 @@
+{
+    "person": {
+        "role": "Uygulama Geliştirici"
+    },
+    "newsletter": {
+        "title": "{firstName}'in Bültenine Abone Ol",
+        "description": "Zaman zaman tasarım, teknoloji hakkında yazıyor ve yaratıcılık ile mühendisliğin kesişimi üzerine düşüncelerimi paylaşıyorum",
+        "button": "Kaydol"
+    },
+    "home": {
+        "label": "Ana Sayfa",
+        "title": "{name}'in Portfolyosu",
+        "description": "{role} olarak çalışmalarımı sergileyen portfolyo sitesi",
+        "headline": "Uygulama Geliştirici",
+        "subline": "Bu bir test yazısıdır..!!"
+    },
+    "about": {
+        "label": "Hakkımda",
+        "title": "Hakkımda",
+        "description": "{location}'dan {role} {name} ile tanışın",
+        "intro": {
+            "title": "Tanıtım",
+            "description": "Bu bir test yazısıdır..!!"
+        },
+        "work": {
+            "title": "İş Deneyimi",
+            "experiences": {
+                "FLY": {
+                    "timeframe": "2022 - Günümüz",
+                    "role": "Kıdemli Tasarım Mühendisi",
+                    "achievements": "FLY platformunun kullanıcı arayüzünü/deneyimini yeniden tasarlayarak kullanıcı etkileşiminde %20 artış ve yükleme sürelerinde %30 hızlanma sağlandı.;Tasarım iş akışlarına yapay zeka araçlarının entegrasyonuna öncülük ederek tasarımcıların %50 daha hızlı iterasyon yapabilmesini sağladı."
+                },
+                "Creativ3": {
+                    "timeframe": "2022 - 2023",
+                    "role": "Software Developer",
+                    "achievements": "Kamusal uygulamalar geliştirmede aktif rol aldım."
+                }
+            }
+        },
+        "studies": {
+            "title": "Eğitim",
+            "institutions": {
+                "Yuksek Ihtisas Universty": {
+                    "description": "Bilgisayar programcılığı 2019 - 2021"
+                },
+                "Build the Future": {
+                    "description": "Web programlama üzerine eğiitim aldım."
+                }
+            }
+        },
+        "technical": {
+            "title": "Teknik beceriler",
+            "skills": {
+                "Figma": {
+                    "description": "Once UI ile Figma'da olağanüstü hızda prototip oluşturabilme."
+                },
+                "Nextjs": {
+                    "description": "Next.js + Once UI + Supabase ile yeni nesil uygulamalar geliştirme."
+                }
+            }
+        }
+    },
+    "work": {
+        "label": "Çalışmalar",
+        "title": "Projelerim",
+        "description": "{name} tarafından yapılan yazılım ve geliştirme projeleri"
+    },
+    "projectCard": {
+        "label": "Vaka Çalışmasını Oku"
+    }
+}
